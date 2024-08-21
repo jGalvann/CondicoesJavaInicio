@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int penis = 12;
+        int idadePes = 20;
+        String nomePes = "Taffezinho";
+
+
+
 
     }
 }
