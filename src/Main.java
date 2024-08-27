@@ -5,7 +5,6 @@ public class Main {
         String nomePes = "Taffezinho";
 
 
-        if(idadePes > 21 )
 
     }
 }

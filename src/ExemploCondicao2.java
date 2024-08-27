@@ -11,15 +11,22 @@ public class ExemploCondicao2 {
 
     public static void main(String[] args) {
 
-        double valorBruto = 1500;
+        double valorBruto = 3000;
+        double desconto = 0d; // esse d significa que é double, pode ser uma 0d ou um 0.0
 
 
-    if (valorBruto > 1000 ) {
-        double desconto = valorBruto * 0.10;
-    }else if (valorBruto > 2000){
-        double desconto = valorBruto * 0.20;
+    if (valorBruto > 1000  && valorBruto < 2000) {
+        desconto = valorBruto * 0.10;
+    }else if (valorBruto > 2000 && valorBruto < 3000){
+         desconto = valorBruto * 0.20;
     } else if( valorBruto >= 3000) {
-        double desconto = valorBruto * 0.30;
+         desconto = valorBruto * 0.30;
     }
+    System.out.println("Valor Bruto é : " + valorBruto);
+    System.out.println("Valor do desconto é: " + desconto);
+    System.out.println("Valor liquido é :" + ( valorBruto - desconto));
+
+
+
     }
 }
