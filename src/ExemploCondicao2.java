@@ -13,16 +13,17 @@ public class ExemploCondicao2 {
 
     public static void main(String[] args) {
 
-        double valorBruto;\
+        double valorBruto;
         double desconto = 0d; // esse d significa que é double, pode ser uma 0d ou um 0.0
 
 
         Scanner scanner = new Scanner(System.in);
 
+        valorBruto = scanner.nextDouble();
 
-    if (valorBruto > 1000  && valorBruto < 2000) {
+    if (valorBruto > 1000  && valorBruto <= 2000) {
         desconto = valorBruto * 0.10;
-    }else if (valorBruto > 2000 && valorBruto < 3000){
+    }else if (valorBruto > 2000 && valorBruto <= 3000){
          desconto = valorBruto * 0.20;
     } else if( valorBruto >= 3000) {
          desconto = valorBruto * 0.30;
