@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ExemploCondicao2 {
 
 
@@ -11,8 +13,11 @@ public class ExemploCondicao2 {
 
     public static void main(String[] args) {
 
-        double valorBruto = 3000;
+        double valorBruto;\
         double desconto = 0d; // esse d significa que é double, pode ser uma 0d ou um 0.0
+
+
+        Scanner scanner = new Scanner(System.in);
 
 
     if (valorBruto > 1000  && valorBruto < 2000) {
